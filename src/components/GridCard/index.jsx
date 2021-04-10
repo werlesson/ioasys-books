@@ -18,7 +18,7 @@ const GridCard = ({ className }) => (
       <Card />
       <Card />
     </S.Wrapper>
-    <Pagination first="1" last="100" className="mt-3 mb-6" />
+    <Pagination first="1" last="100" className="mt-3 mb-3" />
   </>
 )
 
