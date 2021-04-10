@@ -1,13 +1,10 @@
-// import Main from '../components/Main'
-
-import Link from 'next/link'
+import LayoutDefault from '../components/LayoutDefault'
 
 export default function Home() {
   return (
-    <>
-      <h1>
-        Home here, Go to <Link href="/login">Login</Link>
-      </h1>
-    </>
+    <LayoutDefault>
+      <h1>Teste</h1>
+      asdas
+    </LayoutDefault>
   )
 }
