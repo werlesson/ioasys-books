@@ -1,8 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
-
   * {
     margin: 0;
     padding: 0;
@@ -15,12 +13,10 @@ const GlobalStyles = createGlobalStyle`
 
   html, body, #__next {
     height: 100%;
+    font-family: 'Heebo', sans-serif;
   }
 
-  body {
-    font-family: 'Heebo', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-
+/* Margin and Padding */
   .mb-1 {
     margin-bottom: 0.5rem !important;
   }

@@ -8,7 +8,7 @@ const FormLogin = () => (
       <Logo />
     </div>
     <Input className="mb-2" label="Email" type="text" name="username" />
-    <Input label="Senha" type="password" name="password" />
+    <Input withButton label="Senha" type="password" name="password" />
   </S.Wrapper>
 )
 
