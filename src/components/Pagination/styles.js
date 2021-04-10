@@ -7,6 +7,9 @@ export const Wrapper = styled.div`
   font-size: 12px;
   line-height: 20px;
   font-weight: 500;
+  @media (max-width: 668px) {
+    justify-content: center;
+  }
 `
 
 export const Circle = styled.span`
