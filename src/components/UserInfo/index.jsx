@@ -6,9 +6,9 @@ const UserInfo = ({ name }) => (
     <span>
       Bem vindo, <strong>{name}</strong>!
     </span>
-    <span className="ml-2">
+    <S.Circle className="ml-2">
       <FiLogOut />
-    </span>
+    </S.Circle>
   </S.Wrapper>
 )
 
