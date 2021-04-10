@@ -1,10 +1,10 @@
 import LayoutDefault from '../components/LayoutDefault'
+import Navbar from '../components/Navbar'
 
 export default function Home() {
   return (
     <LayoutDefault>
-      <h1>Teste</h1>
-      asdas
+      <Navbar />
     </LayoutDefault>
   )
 }
