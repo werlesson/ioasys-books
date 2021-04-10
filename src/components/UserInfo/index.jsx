@@ -3,9 +3,9 @@ import { FiLogOut } from 'react-icons/fi'
 
 const UserInfo = ({ name }) => (
   <S.Wrapper>
-    <span>
+    <S.Greating>
       Bem vindo, <strong>{name}</strong>!
-    </span>
+    </S.Greating>
     <S.Circle className="ml-2">
       <FiLogOut />
     </S.Circle>
