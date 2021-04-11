@@ -7,7 +7,7 @@ export const Wrapper = styled.main`
   background-size: cover;
   color: #333;
   width: 100%;
-  height: 100%;
-  padding: 7vh 7vw;
+  min-height: 100%;
+  padding: 3rem 7vw 0;
   overflow-y: auto;
 `

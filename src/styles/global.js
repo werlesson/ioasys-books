@@ -159,6 +159,14 @@ const GlobalStyles = createGlobalStyle`
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
+/* Text */
+.text-weight-medium {
+  font-weight: 500 !important;
+}
+.text-black {
+  color: #333;
+}
 `
 
 export default GlobalStyles
